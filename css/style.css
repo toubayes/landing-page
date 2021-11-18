@@ -1,0 +1,182 @@
+/* start global rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: whitesmoke;
+}
+
+/* end global rules */
+
+.page-all{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-all header{
+    justify-content: space-evenly;
+
+}
+.page-all header img{
+    width:50px;
+    height:50px;
+   float: left;
+   margin-left: 60px;
+}
+.page-all header i{
+    line-height: 36px;
+    float: right;
+    margin-right: 60px;
+}
+@media screen and (max-width: 600px) {
+    .page-all header img {
+      margin-left: 36px;
+    }
+    .page-all header i{
+        margin-right:36px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .page-all header img {
+      margin-left: 6px;
+    }
+    .page-all header i{
+        margin-right:6px;
+    }
+  }
+.page-all .heading{
+    height: 500px;
+    background: rgb(4, 111, 211);
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+}
+.page-all .heading .text{
+    text-align: center;
+    padding: 100px;
+    font-weight: border;
+    font-size: 55px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.page-all .heading .sub-text,
+.page-all .heading .sub-sub-text{
+    text-align: center;
+}
+.page-all .image-text{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.page-all .image-text .texting{
+    height: 300px;
+    width: 900px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.page-all .image-text .texting p{
+    font-weight: bold;
+    padding: 5px;
+
+    line-height: 30px;
+}
+.page-all .image-text .image button{
+    margin: 22px 55px;
+        padding: 15px;
+        border: 0;
+        outline: 0;
+        background: yellow;
+        border-radius: 10px;
+    
+}
+.slider{
+    text-align: center;
+    margin: 15px 0;
+}
+.slider img{
+    width: 900px;
+    height: 400px;
+}
+.promosion{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+}
+.promosion .promosion1,
+.promosion .promosion2,
+.promosion .promosion3{
+    width: 250px;
+    height:800px;
+    background:rgb(231 231 231);
+    margin:0 50px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.promosion .promosion1:hover,
+.promosion .promosion2:hover,
+.promosion .promosion3:hover{
+   background: rgb(225 217 217);
+}
+.promosion .promosion1 h3,
+.promosion .promosion2 h3,
+.promosion .promosion3 h3{
+    padding: 5px;
+    text-align: center;
+}
+.promosion .promosion1 h4,
+.promosion .promosion2 h4,
+.promosion .promosion3 h4{
+    text-align: center;
+    padding: 70px 0;
+}
+.promosion .promosion1 img,
+.promosion .promosion2 img,
+.promosion .promosion3 img{
+    width: 250px;
+    height: 300px;
+}
+.promosion .promosion1 h5 ,
+.promosion .promosion2 h5 ,
+.promosion .promosion3 h5 {
+    text-align: center;
+    padding: 70px 0;
+    font-weight: bold;
+    color: rgb(13, 13, 14);
+    font-size: 22px;
+}
+.promosion .promosion1 h5 span,
+.promosion .promosion2 h5 span,
+.promosion .promosion3 h5 span{
+    font-size: 65px;
+    color: green;
+}
+.promosion .promosion1 button ,
+.promosion .promosion2 button ,
+.promosion .promosion3 button {
+    padding: 10px;
+    font-weight: bold;
+    background: yellow;
+    border-radius: 10px;
+    outline:0;
+    border: 0;
+    margin: 0px 62px;
+        font-size: large;
+}
+.creater{
+    display: flex;
+    justify-content: center;
+}
+.creater .title{
+    margin: 50px 12px;
+
+}
+.creater h2{
+    font-family: 'Great Vibes', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+.copyrght{
+    padding:5px 0;
+    text-align: center;
+}
